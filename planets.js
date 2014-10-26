@@ -88,7 +88,6 @@ function buildSolarSystem()
 
 function setSliderCommands()
 {
-    // Press 'f' to speed up planets, 's' to slow them down
     slider.onchange = function() {
         secondsPerYear = 1/this.value;
         buildSolarSystem();
